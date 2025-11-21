@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Car from './componets/car.js';
+import Parent  from './componets/parent.js';
+import Count from './componets/count.js';
+import InputBox from './componets/count.js';
+
 
 
 // const myelement = (
@@ -45,8 +49,8 @@ import Car from './componets/car.js';
 //   )
 // }
 
-let x = "ford";
-let y = [1192 ,323, 333];
+// let x = "ford";
+// let y = [1192 ,323, 333];
 
 
 
@@ -58,9 +62,22 @@ root.render(
   // </React.StrictMode>
   //  <Car/>
       
-    //  <Car color = "red" />
+    // //  <Car color = "red" />
 
-     <Car brand={x} year ={y}/>
+    //  <Car brand={x} year ={y}/>
+
+    // <Car barnd="kia"  model="2025"  year={2022}  color="balck"/>
+
+    //<Parent/>
+    
+    //  <Count/>
+
+    // <InputBox/>
+
+    // < Car/>
+
+    <InputBox/>
+    
      
 );
 
