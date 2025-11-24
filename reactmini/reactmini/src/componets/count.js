@@ -1,4 +1,6 @@
+import React from "react";
 import { useState } from "react";
+
 
 
 
@@ -15,24 +17,17 @@ function Count(){
 
 
 function InputBox() {
-  const [text, setText] = useState("");
+const [text, setText] = useState(" ");
 
 function handelcahnge(e){
   setText(e.target.value);
 }
 
-
-
-
-  return (
+return (
    <form>
-    <label>Enter your name:
-     <lnput
-     type = "text"
-     value={text}
-     onChange={handelcahnge}
-     />
-    </label>
+    <label>Enter your name: </label>
+     <input type = "text" value={text} onChange={handelcahnge}></input>
+    
    </form>
   );
 }

@@ -3,10 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Car from './componets/car.js';
-import Parent  from './componets/parent.js';
-import Count from './componets/count.js';
-import InputBox from './componets/count.js';
+
 
 
 
@@ -57,27 +54,12 @@ import InputBox from './componets/count.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>
-  //  <Car/>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+
       
-    // //  <Car color = "red" />
-
-    //  <Car brand={x} year ={y}/>
-
-    // <Car barnd="kia"  model="2025"  year={2022}  color="balck"/>
-
-    //<Parent/>
-    
-    //  <Count/>
-
-    // <InputBox/>
-
-    // < Car/>
-
-    <InputBox/>
-    
+   
      
 );
 
