@@ -1,9 +1,11 @@
 
 import './App.css';
-import IncordecCounter from './counter.js';
+import IncordecCounter from './counter.js'; 
+import PropsDrilling from './concept/Propsdrilling.js'
+import Component1 from './concept/Usecontext.js'
 function App() {
   return (
-    <IncordecCounter/>
+      <Component1/>
   );
 }
 
