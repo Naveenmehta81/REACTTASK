@@ -11,7 +11,9 @@ function App() {
   return (
         // <IncordecCounter/>
         // <Listofyear/>
-        <UseEffects1/>
+        // <UseEffects1/>
+        //<Useref/>
+        <Usereducer/>
   );
 }
 

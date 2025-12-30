@@ -1,20 +1,18 @@
-import React from 'react'
-import { useState , createContext , useContext } from 'react';
+import React from "react";
+import { useState, createContext, useContext } from "react";
 
 const usercontext = createContext();
 
- function Component1()  {
-    const[user , setUser ] = useState("Naveen");
+function Component1() {
+  const [user, setUser] = useState("Naveen");
   return (
     <div>
-        <usercontext.Provider  value={user}>
-                           <h1>{`hello  ${user}!`}</h1>
-        <Component2/>
-        </usercontext.Provider>
-       
-
+      <usercontext.Provider value={user}>
+        <h1>{`hello  ${user}!`}</h1>
+        <Component2 />
+      </usercontext.Provider>
     </div>
-  )
+  );
 }
 
 function Component2() {
@@ -32,8 +30,9 @@ function Component3() {
       <Component4 />
     </>
   );
-}function Component4() {
- const user = useContext(usercontext);
+}
+function Component4() {
+  const user = useContext(usercontext);
 
   return (
     <>
@@ -43,5 +42,4 @@ function Component3() {
   );
 }
 
-
-export default  Component1 ;
+export default Component1;
