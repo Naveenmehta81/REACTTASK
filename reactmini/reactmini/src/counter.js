@@ -24,7 +24,7 @@ function IncordecCounter() {
             <div className="counter-wrapper">
 
                 <div>
-                    <button type="number" className="btn decrement-btn" onClick={handeldecrement}>-</button>
+                    <button type="number" className="btn-decrement-btn" onClick={handeldecrement}>-</button>
                 </div>
 
                 <div className="counter-value">
@@ -32,7 +32,7 @@ function IncordecCounter() {
                 </div>
 
                 <div>
-                    <button type="number" className="btn increment-btn" onClick={handelIncrement}>+</button>
+                    <button type="number" className="btn-increment-btn" onClick={handelIncrement}>+</button>
                 </div>
 
                 <div>
@@ -48,4 +48,4 @@ export default IncordecCounter;
 
 
 // i make a counter app 
-// i face doubt in how i display my input so it solve by useState 
+// i face doubt in how i display my input so it solve by useState . 
